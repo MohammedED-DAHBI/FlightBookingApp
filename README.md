@@ -38,7 +38,7 @@ Key highlights:
 
 | Layer       | Technology                 |
 |-------------|-----------------------------|
-| Backend     | ASP.NET Core (.NET 6/7/8)    |
+| Backend     | ASP.NET Core (.NET 8)   |
 | Database    | SQL Server (via EF Core)     |
 | Frontend    | Razor Pages  |
 | Auth        | Identity |
