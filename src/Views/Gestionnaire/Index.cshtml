@@ -1,0 +1,50 @@
+﻿@model List<VolApp.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "Manage Gestionnaires";
+}
+
+<h2>Gestionnaires</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Nom</th>
+            <th>Code</th>
+            <th>Recruitment Year</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.Nom</td>
+                <td>@user.Code</td>
+                <td>@user.AnneeRecrutement</td>
+                <td>
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" name="id" value="@user.Id" />
+                        <button type="submit" class="btn btn-danger"
+                                onclick="return confirm('Are you sure?')">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Add Gestionnaire</a>

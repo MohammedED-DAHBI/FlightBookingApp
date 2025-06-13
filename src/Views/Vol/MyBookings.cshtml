@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Booking>
+@{
+    var allStatuses = Enum.GetValues(typeof(BookingStatus)).Cast<BookingStatus>();
+    var selectedStatuses = ViewBag.SelectedStatuses as List<BookingStatus> ?? new List<BookingStatus> { BookingStatus.Pending };
+    ViewData["Title"] = "Booking";
+}
+<style>
+    .dropdown-menu form {
+        padding: 0.25rem 1.5rem;
+    }
+
+    .dropdown-item .form-check {
+        padding-left: 0;
+    }
+    /* Prevent dropdown from closing when clicking checkboxes */
+    .dropdown-menu li {
+        pointer-events: none;
+    }
+
+        .dropdown-menu li .form-check,
+        .dropdown-menu li .form-check * {
+            pointer-events: auto;
+        }
+</style>
+
+<h2>My Bookings</h2>
+
+
+<!-- Status Filter Form -->
+<form asp-action="MyBookings" method="get" class="mb-4">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="statusFilterDropdown"
+                data-bs-toggle="dropdown" aria-expanded="false">
+            Filter by Status (@selectedStatuses.Count selected)
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="statusFilterDropdown">
+            @foreach (var status in allStatuses)
+            {
+                <li>
+                    <div class="dropdown-item">
+                        <div class="form-check">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   name="statuses"
+                                   value="@status"
+                                   id="filter-@status"
+                            @(selectedStatuses.Contains(status) ? "checked" : "")>
+                            <label class="form-check-label" for="filter-@status">
+                                @status
+                            </label>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+        <button type="submit" class="btn btn-primary ms-2">Apply Filters</button>
+    </div>
+</form>
+
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Destination</th>
+                <th>Departure Date</th>
+                <th>Arrival Date</th>
+                <th>Seats Booked</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr class="@(booking.Status == BookingStatus.Canceled ? "table-secondary" : "")" data-status="@booking.Status">
+                    <td>@booking.Vol.Depart - @booking.Vol.Destination</td>
+                    <td>@booking.Vol.Depart</td>
+                    <td>@booking.Vol.Destination</td>
+                    <td>@booking.Vol.DateDepart.ToShortDateString()</td>
+                    <td>@booking.Vol.DateArrivee.ToShortDateString()</td>
+                    <td>@booking.NumberOfSeats</td>
+                    <td>@booking.Status</td>
+                    <td>
+                        @if (booking.Status == BookingStatus.Pending)
+                        {
+                            <form asp-action="CancelBooking" method="post">
+                                <input type="hidden" name="bookingId" value="@booking.Id" />
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to cancel this booking?');">Cancel</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">@booking.Status</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>You have no bookings.</p>
+}

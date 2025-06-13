@@ -1,0 +1,50 @@
+﻿@model Vol
+
+<h1>Modifier un vol</h1>
+<form method="post">
+    <div class="mb-3 raw">
+        <label asp-for="Destination"></label>
+        <input asp-for="Destination" class="form-control" />
+        <span asp-validation-for="Destination" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="Depart"></label>
+        <input asp-for="Depart" class="form-control" />
+        <span asp-validation-for="Depart" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="DateDepart"></label>
+        <input asp-for="DateDepart" type="datetime-local" class="form-control" />
+        <span asp-validation-for="DateDepart" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="DateArrivee"></label>
+        <input asp-for="DateArrivee" type="datetime-local" class="form-control" />
+        <span asp-validation-for="DateArrivee" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="NombrePlacesMax"></label>
+        <input asp-for="NombrePlacesMax" class="form-control" />
+        <span asp-validation-for="NombrePlacesMax" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="PlacesDisponibles"></label>
+        <input asp-for="PlacesDisponibles" class="form-control" />
+        <span asp-validation-for="PlacesDisponibles" class="text-danger"></span>
+    </div>
+    <div class="mb-3 raw">
+        <label asp-for="Prix"></label>
+        <input asp-for="Prix" class="form-control" />
+        <span asp-validation-for="Prix" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary form-control">Modifier le vol</button>
+    <a asp-controller="Vol" asp-action="Index" class="btn btn-outline-secondary form-control">
+        Retour à la liste
+    </a>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Studies\S4\DotNet\VolAppPublish</_PublishTargetUrl>
+    <History>True|2025-03-25T00:53:58.1034639Z||;True|2025-03-25T00:48:16.2595174+00:00||;True|2025-03-25T00:36:18.1836823+00:00||;True|2025-03-25T00:23:43.4712240+00:00||;True|2025-03-25T00:16:33.8660320+00:00||;True|2025-03-25T00:12:52.4915110+00:00||;True|2025-03-24T23:57:28.4151268+00:00||;True|2025-03-24T16:01:25.8881194+00:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

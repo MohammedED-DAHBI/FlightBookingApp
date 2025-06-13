@@ -1,0 +1,61 @@
+﻿@model Vol
+
+@{
+    ViewData["Title"] = "Book Flight";
+}
+
+<h2>Book Flight</h2>
+
+<form asp-action="AddBooking" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" id="basePrice" value="@Model.Prix" />
+
+    <div class="form-group">
+        <label>Departure City</label>
+        <input asp-for="Depart" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label>Arrival City</label>
+        <input asp-for="Destination" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label>Available Seats</label>
+        <input asp-for="PlacesDisponibles" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label for="seats">Number of Seats to Book</label>
+        <input type="number" id="seats" name="seats" class="form-control"
+               min="1" max="@Model.PlacesDisponibles"
+               oninput="calculateTotal()" required />
+    </div>
+
+    <div class="form-group">
+        <label>Price Per Seat</label>
+        <input type="text" class="form-control" readonly
+               value="@Model.Prix.ToString("C")" />
+    </div>
+
+    <div class="form-group">
+        <label>Total Price</label>
+        <input type="text" id="totalPrice" class="form-control fw-bold" readonly
+               value="@Model.Prix.ToString("C")" />
+        <input type="hidden" id="calculatedTotal" name="totalPrice" value="@Model.Prix" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Confirm Booking</button>
+</form>
+
+@section Scripts {
+    <script>
+        function calculateTotal() {
+            const seats = parseInt(document.getElementById('seats').value) || 1;
+            const basePrice = parseFloat(document.getElementById('basePrice').value);
+            const total = seats * basePrice;
+
+            // Update display
+            document.getElementById('totalPrice').value =
+                total.toLocaleString('en-US', {style:'currency', currency:'USD'});
+            document.getElementById('calculatedTotal').value = total.toFixed(2);
+        }
+    </script>
+}

@@ -1,0 +1,583 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Studies\\S4\\DotNet\\VolApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325091042_seedVol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250325091042_seedVol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\models\\vol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:models\\vol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\controllers\\volcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:controllers\\volcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\volapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:volapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\gestionnaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\gestionnaire\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325010312_lastStepThisTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250325010312_lastStepThisTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\pendingreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\pendingreservations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\controllers\\gestionnairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:controllers\\gestionnairecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Studies\\S4\\DotNet\\EcommApp\\Migrations\\20250222180622_SeedProduitTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\vol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\vol\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\wwwroot\\css\\quartz.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:wwwroot\\css\\quartz.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|d:\\studies\\s4\\dotnet\\volapp\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6224A697-2767-421B-8082-56D9E5B94F40}|VolApp.csproj|solutionrelative:views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250325091042_seedVol.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325091042_seedVol.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250325091042_seedVol.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325091042_seedVol.cs",
+              "RelativeToolTip": "Migrations\\20250325091042_seedVol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T09:10:43.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VolController.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\VolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VolController.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\VolController.cs",
+              "RelativeToolTip": "Controllers\\VolController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:27:38.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyBookings.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\MyBookings.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\MyBookings.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\MyBookings.cshtml",
+              "RelativeToolTip": "Views\\Vol\\MyBookings.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T00:05:35.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\Index.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Index.cshtml",
+              "RelativeToolTip": "Views\\Vol\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T22:24:17.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAkwEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T19:54:35.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T08:59:00.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:54:00.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:23:07.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VolApp",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\VolApp.csproj",
+              "RelativeDocumentMoniker": "VolApp.csproj",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\VolApp.csproj",
+              "RelativeToolTip": "VolApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T00:12:33.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Gestionnaire\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Gestionnaire\\Index.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Gestionnaire\\Index.cshtml",
+              "RelativeToolTip": "Views\\Gestionnaire\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T00:51:08.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Vol.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\Vol.cs",
+              "RelativeDocumentMoniker": "Models\\Vol.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\Vol.cs",
+              "RelativeToolTip": "Models\\Vol.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:34:33.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250325010312_lastStepThisTime.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325010312_lastStepThisTime.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250325010312_lastStepThisTime.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Migrations\\20250325010312_lastStepThisTime.cs",
+              "RelativeToolTip": "Migrations\\20250325010312_lastStepThisTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:03:13.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PendingReservations.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\PendingReservations.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\PendingReservations.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\PendingReservations.cshtml",
+              "RelativeToolTip": "Views\\Vol\\PendingReservations.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAJ0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T06:17:42.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Book.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\Book.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Book.cshtml",
+              "RelativeToolTip": "Views\\Vol\\Book.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T22:24:15.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GestionnaireController.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\GestionnaireController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GestionnaireController.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\GestionnaireController.cs",
+              "RelativeToolTip": "Controllers\\GestionnaireController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:28:45.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T09:06:46.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\Create.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Create.cshtml",
+              "RelativeToolTip": "Views\\Vol\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T18:55:11.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Data\\DbInitializer.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T21:00:16.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:37:33.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T22:29:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T10:38:01.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T22:43:12.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T10:44:16.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T05:34:44.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T23:20:09.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:40:34.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:40:35.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\Edit.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Vol\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T22:24:17.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Vol\\Delete.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Vol\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Vol\\Delete.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T18:53:22.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "quartz.css",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\css\\quartz.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\quartz.css",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\css\\quartz.css",
+              "RelativeToolTip": "wwwroot\\css\\quartz.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T09:14:03.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-25T09:03:42.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAsAAAAAAAAAAMBdwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T08:54:39.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250222180622_SeedProduitTable.cs",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\EcommApp\\Migrations\\20250222180622_SeedProduitTable.cs",
+              "RelativeDocumentMoniker": "..\\EcommApp\\Migrations\\20250222180622_SeedProduitTable.cs",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\EcommApp\\Migrations\\20250222180622_SeedProduitTable.cs",
+              "RelativeToolTip": "..\\EcommApp\\Migrations\\20250222180622_SeedProduitTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T18:06:22.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Test.cshtml",
+              "DocumentMoniker": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Test.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Test.cshtml",
+              "ToolTip": "D:\\Studies\\S4\\DotNet\\VolApp\\Views\\Home\\Test.cshtml",
+              "RelativeToolTip": "Views\\Home\\Test.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T10:37:04.619Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

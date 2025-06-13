@@ -1,0 +1,188 @@
+﻿@model IEnumerable<Booking>
+@{
+    var allStatuses = Enum.GetValues(typeof(BookingStatus)).Cast<BookingStatus>();
+    var selectedStatuses = ViewBag.SelectedStatuses as List<BookingStatus> ?? new List<BookingStatus> { BookingStatus.Pending };
+    ViewData["Title"] = "Pending Reservations";
+}
+<style>
+    .dropdown-menu form {
+        padding: 0.25rem 1.5rem;
+    }
+    .dropdown-item .form-check {
+        padding-left: 0;
+    }
+    /* Prevent dropdown from closing when clicking checkboxes */
+    .dropdown-menu li {
+        pointer-events: none;
+    }
+    .dropdown-menu li .form-check,
+    .dropdown-menu li .form-check * {
+        pointer-events: auto;
+    }
+</style>
+<h2>Pending Reservations</h2>
+
+<!-- Display Statistics -->
+<div class="row">
+    <!-- Total Reservations Card -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                            Total Reservations
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalReservations</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Confirmed Card -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Total Confirmed
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalConfirmed</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-check-circle fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Pending Card -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                            Total Pending
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalPending</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-clock fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Total Cancellations Card -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-danger shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                            Total Cancellations
+                        </div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalCancellations</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-times-circle fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Status Filter Form -->
+<form asp-action="PendingReservations" method="get" class="mb-4">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="statusFilterDropdown" 
+                data-bs-toggle="dropdown" aria-expanded="false">
+            Filter by Status (@selectedStatuses.Count selected)
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="statusFilterDropdown">
+            @foreach (var status in allStatuses)
+            {
+                <li>
+                    <div class="dropdown-item">
+                        <div class="form-check">
+                            <input class="form-check-input" 
+                                   type="checkbox" 
+                                   name="statuses" 
+                                   value="@status" 
+                                   id="filter-@status"
+                                   @(selectedStatuses.Contains(status) ? "checked" : "")>
+                            <label class="form-check-label" for="filter-@status">
+                                @status
+                            </label>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+        <button type="submit" class="btn btn-primary ms-2">Apply Filters</button>
+    </div>
+</form>
+
+@if (Model.Any())
+{
+    <table class="table" id="reservationsTable">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Flight</th>
+                <th>Departure</th>
+                <th>Destination</th>
+                <th>Departure Date</th>
+                <th>Arrival Date</th>
+                <th>Seats Booked</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr data-status="@booking.Status">
+                    <td>@booking.User.UserName</td>
+                    <td>@booking.Vol.Depart - @booking.Vol.Destination</td>
+                    <td>@booking.Vol.Depart</td>
+                    <td>@booking.Vol.Destination</td>
+                    <td>@booking.Vol.DateDepart.ToShortDateString()</td>
+                    <td>@booking.Vol.DateArrivee.ToShortDateString()</td>
+                    <td>@booking.NumberOfSeats</td>
+                    <td>@booking.Status</td>
+                    <td>
+                        @if (booking.Status == BookingStatus.Pending)
+                        {
+                            <form asp-action="ConfirmBooking" method="post">
+                                <input type="hidden" name="bookingId" value="@booking.Id" />
+                                <button type="submit" class="btn btn-success">Confirm</button>
+                            </form>
+                            <form asp-action="RefuseBooking" method="post" class="mt-2">
+                                <input type="hidden" name="bookingId" value="@booking.Id" />
+                                <button type="submit" class="btn btn-danger">Cancel</button>
+                            </form>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No reservations found.</p>
+}

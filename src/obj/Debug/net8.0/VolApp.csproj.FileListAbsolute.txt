@@ -1,0 +1,9 @@
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.csproj.AssemblyReference.cache
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.AssemblyInfoInputs.cache
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.AssemblyInfo.cs
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.csproj.CoreCompileInputs.cache
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.MvcApplicationPartsAssemblyInfo.cs
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.RazorAssemblyInfo.cache
+D:\Studies\S4\DotNet\VolApp\obj\Debug\net8.0\VolApp.RazorAssemblyInfo.cs

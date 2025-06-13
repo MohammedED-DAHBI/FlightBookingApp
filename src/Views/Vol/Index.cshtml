@@ -1,0 +1,125 @@
+﻿@model List<Vol>
+
+@{
+    ViewData["Title"] = "Search Flights";
+}
+
+<h2>Search Flights</h2>
+
+<!-- Search Form -->
+<form asp-action="Search" method="get">
+    <div class="form-group">
+        <label for="depart">Departure City</label>
+        <input type="text" name="depart" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="destination">Arrival City</label>
+        <input type="text" name="destination" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="dateDepart">Departure Date</label>
+        <input type="date" name="dateDepart" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="dateArrivee">Arrival Date</label>
+        <input type="date" name="dateArrivee" class="form-control" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+<!-- Display Search Results -->
+@if (ViewBag.Vols != null)
+{
+        <h3>Search Results</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Departure City</th>
+                    <th>Arrival City</th>
+                    <th>Departure Date</th>
+                    <th>Arrival Date</th>
+                    <th>Available Seats</th>
+                    <th>Price</th>
+                @if (User.IsInRole("Client"))
+                {
+                            <th>Book</th>
+                }
+                @if (User.IsInRole("Gestionnaire") || User.IsInRole("Admin"))
+                {
+                            <th>Details</th>
+                            <th>Delete</th>
+                }
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var vol in ViewBag.Vols)
+            {
+                        <tr>
+                            <td>@vol.Depart</td>
+                            <td>@vol.Destination</td>
+                            <td>@vol.DateDepart.ToShortDateString()</td>
+                            <td>@vol.DateArrivee.ToShortDateString()</td>
+                            <td>
+                        @vol.PlacesDisponibles / @vol.NombrePlacesMax
+                                <div class="progress progress-sm mr-2">
+                            @{
+                                var percentage = (vol.PlacesDisponibles * 100) / vol.NombrePlacesMax;
+                                var progressClass = percentage < 10 ? "bg-danger" :
+                                percentage < 20 ? "bg-danger bg-opacity-75" :
+                                percentage < 35 ? "bg-warning" :
+                                percentage < 50 ? "bg-warning bg-opacity-50" :
+                                percentage < 65 ? "bg-info" :
+                                percentage < 80 ? "bg-primary" :
+                                "bg-success";
+                            }
+                                    <div class="progress-bar @progressClass" role="progressbar"
+                                         style="width: @percentage%"
+                                         aria-valuenow="@percentage"
+                                         aria-valuemin="0"
+                                         aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                            <td>@vol.Prix.ToString("C")</td>
+                    @if (User.IsInRole("Client"))
+                    {
+                                    <td>
+                                        <a href="@Url.Action("Book", "Vol", new { id = vol.Id })" class="btn btn-primary">Book</a>
+                                    </td>
+                    }
+                    @if (User.IsInRole("Gestionnaire") || User.IsInRole("Admin"))
+                    {
+                                    <td>
+                                        <a asp-controller="Vol" asp-action="Edit" asp-route-id="@vol.Id" class="btn btn-primary">
+                                            Details
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a asp-controller="Vol" asp-action="Delete" asp-route-id="@vol.Id" class="btn btn-danger">
+                                            Delete
+                                        </a>
+                                    </td>
+                    }
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+
+@if (User.IsInRole("Gestionnaire") || User.IsInRole("Admin"))
+{
+        <div>
+            <a asp-controller="Vol" asp-action="Create" class="btn btn-primary">
+                Create New Flight
+            </a>
+        </div>
+}
+
+@if (TempData["Message"] != null)
+{
+        <div class="alert alert-success">
+        @TempData["Message"]
+        </div>
+}

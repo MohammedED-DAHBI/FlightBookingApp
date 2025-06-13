@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Studies\S4\DotNet\publish</_PublishTargetUrl>
+    <History>True|2025-03-04T11:01:16.7473529Z||;True|2025-03-04T10:53:39.4780560+00:00||;True|2025-03-04T10:47:55.8659747+00:00||;True|2025-03-04T10:44:38.0162386+00:00||;True|2025-03-04T10:43:19.4620919+00:00||;True|2025-03-04T10:30:54.8356165+00:00||;True|2025-03-04T10:27:44.5590467+00:00||;True|2025-03-04T10:26:30.1728536+00:00||;False|2025-03-04T10:25:46.2638272+00:00||;True|2025-03-04T10:17:14.4046635+00:00||;True|2025-03-04T09:35:39.7030394+00:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
